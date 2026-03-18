@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
+		<module>modulo01</module>
 	</modules>
 
 </project>
