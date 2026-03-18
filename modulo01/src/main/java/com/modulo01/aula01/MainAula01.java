@@ -6,10 +6,10 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.modulo01.aula01")
-public class Modulo01Application {
+public class MainAula01 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Modulo01Application.class, args);
+		SpringApplication.run(MainAula01.class, args);
 		/* Criando um controller com Spring MVC */
 	}
 
