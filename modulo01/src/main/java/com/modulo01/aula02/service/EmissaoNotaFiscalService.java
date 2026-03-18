@@ -1,8 +1,8 @@
-package com.modulo01.Aula02.service;
+package com.modulo01.aula02.service;
 
-import com.modulo01.Aula02.modelo.Cliente;
-import com.modulo01.Aula02.modelo.Produto;
-import com.modulo01.Aula02.notificacao.Notificador;
+import com.modulo01.aula02.modelo.Cliente;
+import com.modulo01.aula02.modelo.Produto;
+import com.modulo01.aula02.notificacao.Notificador;
 
 public class EmissaoNotaFiscalService {
 

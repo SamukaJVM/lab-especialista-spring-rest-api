@@ -1,6 +1,6 @@
-package com.modulo01.Aula02.notificacao;
+package com.modulo01.aula02.notificacao;
 
-import com.modulo01.Aula02.modelo.Cliente;
+import com.modulo01.aula02.modelo.Cliente;
 
 public class NotificadorSMS implements Notificador {
 

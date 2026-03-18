@@ -1,11 +1,11 @@
-package com.modulo01.Aula02;
+package com.modulo01.aula02;
 
-import com.modulo01.Aula02.modelo.Cliente;
-import com.modulo01.Aula02.modelo.Produto;
-import com.modulo01.Aula02.notificacao.NotificadorEmail;
-import com.modulo01.Aula02.notificacao.NotificadorSMS;
-import com.modulo01.Aula02.service.AtivacaoClienteService;
-import com.modulo01.Aula02.service.EmissaoNotaFiscalService;
+import com.modulo01.aula02.modelo.Cliente;
+import com.modulo01.aula02.modelo.Produto;
+import com.modulo01.aula02.notificacao.NotificadorEmail;
+import com.modulo01.aula02.notificacao.NotificadorSMS;
+import com.modulo01.aula02.service.AtivacaoClienteService;
+import com.modulo01.aula02.service.EmissaoNotaFiscalService;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 

@@ -1,4 +1,4 @@
-package com.modulo01.Aula02.modelo;
+package com.modulo01.aula02.modelo;
 
 import java.math.BigDecimal;
 
