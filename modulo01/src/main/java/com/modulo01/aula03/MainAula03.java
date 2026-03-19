@@ -12,6 +12,8 @@ public class MainAula03 {
 		SpringApplication.run(MainAula03.class, args);
 		/* 03 - Definindo beans com @Component */
 		/* Definindo beans gerenciados anotando com @Component */
+		/* Anotando as Classes AtivacaoClienteService como bean gerenciado */
+		/* Anotando as Classes NotificadorEmail como bean gerenciado */
 	}
 
 }

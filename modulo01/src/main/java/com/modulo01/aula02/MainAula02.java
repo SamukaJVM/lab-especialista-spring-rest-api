@@ -15,27 +15,28 @@ import java.math.BigDecimal;
 @ComponentScan(basePackages = "com.modulo01.Aula02")
 public class MainAula02 {
 
-	public static void main(String[] args) {
-		/* 02 - O que é injeção de dependências */
-		/* injeção de dependências sem spring de forma manual */
+    public static void main(String[] args) {
+        /* 02 - O que é injeção de dependências */
+        /* injeção de dependências sem spring de forma manual do Notificador nas Classes AtivacaoClienteService */
+        /* injeção de dependências sem spring de forma manual do Notificador nas Classes EmissaoNotaFiscalService */
 
-		var maria = new Cliente("Maria", "maria@xyz.com", "1177772222");
-		var joao = new Cliente("João", "joao@xyz.com", "3499998888");
+        var maria = new Cliente("Maria", "maria@xyz.com", "1177772222");
+        var joao = new Cliente("João", "joao@xyz.com", "3499998888");
 
-		var notificadorSMS = new NotificadorSMS();
-		var notificadorEmail = new NotificadorEmail();
+        var notificadorSMS = new NotificadorSMS();
+        var notificadorEmail = new NotificadorEmail();
 
-		/* injeção de dependências Motificador de forma manual */
-		var ativacaoCliente = new AtivacaoClienteService(notificadorSMS);
-		var notaFiscal = new EmissaoNotaFiscalService(notificadorEmail);
+        /* injeção de dependências Motificador de forma manual */
+        var ativacaoCliente = new AtivacaoClienteService(notificadorSMS);
+        var notaFiscal = new EmissaoNotaFiscalService(notificadorEmail);
 
-		System.out.println("-------------------------------------");
-		ativacaoCliente.ativar(maria);
-		notaFiscal.emitir(maria, new Produto("Geladeira", new BigDecimal(4500)));
+        System.out.println("-------------------------------------");
+        ativacaoCliente.ativar(maria);
+        notaFiscal.emitir(maria, new Produto("Geladeira", new BigDecimal(4500)));
 
-		System.out.println("-------------------------------------");
-		ativacaoCliente.ativar(joao);
-		notaFiscal.emitir(joao, new Produto("Notebook", new BigDecimal(3500)));
-	}
+        System.out.println("-------------------------------------");
+        ativacaoCliente.ativar(joao);
+        notaFiscal.emitir(joao, new Produto("Notebook", new BigDecimal(3500)));
+    }
 
 }
