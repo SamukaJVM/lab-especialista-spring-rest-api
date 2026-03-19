@@ -4,7 +4,7 @@ import com.modulo01.aula05.notificacao.NotificadorEmail;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration /* Indicar que são fontes de definições de beans para container IoC */
+@Configuration /* Indicar é definições de beans para container IoC */
 public class NotificacaoConfig {
 
 	@Bean /* Indica ao Spring que o metodo anotado retornará um objeto "bean" */
