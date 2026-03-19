@@ -16,9 +16,10 @@ import java.math.BigDecimal;
 public class MainAula02 {
 
     public static void main(String[] args) {
-        /* 02 - O que é injeção de dependências */
-        /* injeção de dependências sem spring de forma manual do Notificador nas Classes AtivacaoClienteService */
-        /* injeção de dependências sem spring de forma manual do Notificador nas Classes EmissaoNotaFiscalService */
+        /* 02 - O que é injeção de dependências
+           injeção de dependências sem spring de forma manual do Notificador nas Classes AtivacaoClienteService
+           injeção de dependências sem spring de forma manual do Notificador nas Classes EmissaoNotaFiscalService
+         */
 
         var maria = new Cliente("Maria", "maria@xyz.com", "1177772222");
         var joao = new Cliente("João", "joao@xyz.com", "3499998888");
