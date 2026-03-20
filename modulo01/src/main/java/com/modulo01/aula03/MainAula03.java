@@ -13,7 +13,7 @@ public class MainAula03 {
 		/* - 03 - Definindo beans com @Component
 		* Definindo beans gerenciados anotando com @Component
 		* Anotando as Classes AtivacaoClienteService como bean gerenciado
-		*  Anotando as Classes NotificadorEmail como bean gerenciado
+		* Anotando as Classes NotificadorEmail como bean gerenciado
 		*/
 	}
 
