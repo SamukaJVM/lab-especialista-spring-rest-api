@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 public class MainAula02 {
 
     public static void main(String[] args) {
-        /* - 02 - O que é injeção de dependências
+        /* 02 - O que é injeção de dependências
         * injeção de dependências sem spring de forma manual do Notificador nas Classes AtivacaoClienteService
         * injeção de dependências sem spring de forma manual do Notificador nas Classes EmissaoNotaFiscalService
         */

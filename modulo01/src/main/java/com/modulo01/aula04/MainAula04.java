@@ -10,7 +10,7 @@ public class MainAula04 {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MainAula04.class, args);
-		/* - 04 - Injetando dependências (beans Spring)
+		/* 04 - Injetando dependências (beans Spring)
 		* 1º Spring Instanciou Bean da Classe NotificadorEmail
 		* 2º Spring Instanciou o Bean da Classe AtivacaoClienteService
 		* 3º Spring Injetando o Bean notificador na AtivacaoClienteService
