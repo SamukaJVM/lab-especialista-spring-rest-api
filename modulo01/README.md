@@ -20,9 +20,8 @@ Especialista Spring REST (AlgaWorks)
 - 12 - Mudando o comportamento da aplicação com Spring Profiles
 - 13 - Criando métodos de callback do ciclo de vida dos beans
 - 14 - Publicando e consumindo eventos customizados
-- 15 - Configurando projetos Spring Boot com o application.properties
-- 16 - Criando e acessando propriedades customizadas com @Value
-- 17 - Acessando propriedades com @ConfigurationProperties
-- 18 - Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
+- 15 - Criando e acessando propriedades customizadas com @Value
+- 16 - Acessando propriedades com @ConfigurationProperties
+- 17 - Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
 
 ---------------------------
