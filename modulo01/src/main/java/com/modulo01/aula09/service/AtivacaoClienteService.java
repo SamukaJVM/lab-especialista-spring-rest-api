@@ -1,0 +1,19 @@
+package com.modulo01.aula09.service;
+
+import com.modulo01.aula09.modelo.Cliente;
+import com.modulo01.aula09.notificacao.Notificador;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AtivacaoClienteService {
+
+	@Autowired
+	private Notificador notificador;
+	
+	public void ativar(Cliente cliente) {
+		cliente.ativar();
+		notificador.notificar(cliente, "Seu cadastro no sistema está ativo!");
+	}
+
+}
